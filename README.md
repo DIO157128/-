@@ -23,7 +23,7 @@ python run.py
 
 ### Basic Models
 
-我们考虑了四种最先进的预训练模型(即CodeT5, CodeBERT, GraphCodeBERT和UniXcoder)作为受试者，并选择最新的技术VRepair作为基线，该技术在缺陷修复任务上显示出了有希望的结果。我们使用完美预测准确率来评估缺陷修复方法的有效性。然后，我们使用两个缺陷数据集比较了预训练模型与VRepair的预测精度，总结如下。
+我们考虑了四种最先进的预训练模型(即CodeT5, CodeBERT, GraphCodeBERT和UniXcoder)作为受试者，并选择最新的技术VRepair作为基线，该技术在缺陷修复任务上显示出了有希望的结果。我们使用完美预测准确率来评估缺陷修复方法的有效性。然后，我们使用两个缺陷数据集比较了预训练模型与VRepair的预测精度。
 
 ### Transfer-learning
 
@@ -35,7 +35,9 @@ bug修复场景表示仅用通用bug修复语料库训练的模型的性能。
 
 迁移学习场景表示使用迁移学习训练的模型的性能，即采用在bug修复场景中训练的模型，并用我们的缺陷修复语料库对其进行微调。
 
-结果如下
+由于bug修复数据集过大，无法上传至github，如果需要，请访问以下链接
+
+[vulnerability_data](https://smailnjueducn-my.sharepoint.com/personal/201250070_smail_nju_edu_cn/_layouts/15/onedrive.aspx?ga=1&id=%2Fpersonal%2F201250070%5Fsmail%5Fnju%5Fedu%5Fcn%2FDocuments%2Fvulnerability%2FData)
 
 ## 实验结果
 
